@@ -22,20 +22,7 @@
       } catch (e) {}
     }
     window.__swarmAuto = true;
-/*
- * Swarm Rebuild
- *
- * Snapshots the current page into a blueprint (boxes, text blocks, media,
- * borders, repeated components), blanks the page, then lets a swarm of
- * multiplayer cursors rebuild it on a canvas: crosshair-drawn rects, typed
- * text, pen-tool lines, ruler guides with snapping, alt-drag duplicates.
- *
- * Injected by background.js; injecting again toggles it off.
- *
- * Auto mode (window.__swarmAuto, set by background.js when a page opens by
- * itself): Tour is switched on so the page builds without scrolling, any real
- * key press exits, and the swarm exits on its own shortly after it finishes.
- */
+
 (() => {
   "use strict";
 
