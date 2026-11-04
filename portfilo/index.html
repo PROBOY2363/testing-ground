@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed Nuhman K | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- External CSS File Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Nuhman <span> an intern at Bridgeon</span></a>
+
+      <!-- Pure CSS Mobile Menu Toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Both Home and About Me route to the unified 1st section (#home) -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ==================== SECTION 1: UNIFIED HOME & ABOUT ME ==================== -->
+  <section id="home" class="home-about-section">
+    <div class="container home-about-wrapper">
+      
+      <!-- Left Side: Intro + About Me in a Single Unified Flow -->
+      <div class="home-about-text">
+        <p class="greeting">HELLO, I AM</p>
+        <h1 class="hero-title">Muhammed Nuhman K</h1>
+        <h2 class="hero-subtitle">Frontend Web Developer &amp; Problem Solver</h2>
+
+        <div class="about-block">
+          <h3 class="about-heading">About Me</h3>
+          <p>
+            I build clean, responsive, and user-focused web interfaces using modern HTML, CSS, and JavaScript. I enjoy turning complex ideas into structured, visual, and high-performing digital experiences with strong attention to layout precision and design detail.
+          </p>
+          <p>
+            Constantly exploring modern frontend architectures and interactive web mechanics, I focus on writing clean, maintainable code that works seamlessly across all screen sizes.
+          </p>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-gold">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+      </div>
+
+      <!-- Right Side: Borderless Photo with 25% Border Radius -->
+      <div class="home-about-photo">
+        <!-- Replace the src URL below with your own photo file path (e.g., "my-photo.jpg") -->
+        <img 
+          src="pf.png" 
+          alt="Muhammed Nuhman K Portrait" 
+          class="profile-img"
+        >
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 2: PROJECTS (4 BOXES WITH IMAGES) ==================== -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">PORTFOLIO</span>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project Box 1 -->
+        <article class="project-card">
+          <div class="project-img-box">
+            <img src="w3nav.png" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <span class="project-category">HTML &bull; CSS &bull; Layout</span>
+            <h3>W3 school navigation bar</h3>
+            <p>A well designed navigation bar of W3 school which is well responsive interface built with CSS Grid and Flexbox.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo &rarr;</a>
+              <a href="#" target="_blank">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Box 2 -->
+        <article class="project-card">
+          <div class="project-img-box">
+            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&w=600&q=80" alt="Project 2">
+          </div>
+          <div class="project-content">
+            <span class="project-category">HTML &bull; CSS &bull; E-Commerce</span>
+            <h2 style="color: red; background-color: rgba(2, 23, 111, 0.404); border-radius: 40%; text-align: center;">On maintance coming soon!!!</h2>
+            <h3>Quick-Commerce Storefront</h3>
+            <p>Modern product catalog and cart interface designed for ultra-fast browsing and mobile responsiveness.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo &rarr;</a>
+              <a href="#" target="_blank">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Box 3 -->
+        <article class="project-card">
+          <div class="project-img-box">
+            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80" alt="Project 3">
+          </div>
+          <div class="project-content">
+            <span class="project-category">HTML &bull; CSS &bull; JS Ready</span>
+            <h3>Market Chart Visualizer</h3>
+            <p>Clean financial price action layout featuring structured timeframes, stats cards, and interactive panels.</p>
+            <div class="project-links">
+              <a href="https://www.tradingview.com/u/Nuhman/" target="_blank">Live Demo &rarr;</a>
+              <a href="#" target="_blank">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Box 4 -->
+        <article class="project-card">
+          <div class="project-img-box">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Project 4">
+          </div>
+          <div class="project-content">
+            <span class="project-category">HTML5 &bull; CSS3</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>Custom navy blue, white, and gold portfolio built with semantic HTML5 and modular CSS architecture.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo &rarr;</a>
+              <a href="#" target="_blank">Source Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 3: LANGUAGES MASTERED / SKILLS ==================== -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">TECHNICAL PROFICIENCY</span>
+        <h2 class="section-title">Languages <span>Mastered</span></h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtitle">Hover over any card to reveal extra details stored in its custom HTML attribute.</p>
+      </div>
+
+      <!-- You can update the "data-more-info" attribute on any card to add more details in the future -->
+      <div class="skills-grid">
+
+        <!-- Skill 1 -->
+        <div class="skill-card" data-more-info="Mastered: Semantic tags,forms, Tables, and Accessible Web Architecture.">
+          <div class="skill-img-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Logo">
+          </div>
+          <h3>HTML5</h3>
+          <p>Structuring clean, semantic, and accessible web pages with modern markup standards.</p>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="skill-card" data-more-info="Mastered: Flexbox, CSS Grid, Custom Variables, Keyframe Animations, and Media Queries.">
+          <div class="skill-img-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Logo">
+          </div>
+          <h3>CSS3</h3>
+          <p>Crafting responsive layouts, smooth transitions, and pixel-perfect navy &amp; gold themes.</p>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="skill-card" data-more-info="Mastered: Data Types, Functions, Operators, Control Structures, and DOM Manipulation.">
+          <div class="skill-img-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+          </div>
+          <h3>JavaScript</h3>
+          <p>Building dynamic logic, interactive components, and client-side behavior for modern web apps.</p>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="skill-card" data-more-info="Mastered: Algorithmic Logic, Automation Scripts, Data Analysis, and Backtesting Workflows.">
+          <div class="skill-img-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
+          </div>
+          <h3>Python</h3>
+          <p>Basic knowledge about python and its working .</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4: CONTACT ME ==================== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">GET IN TOUCH</span>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="contact-wrapper">
+        
+        <!-- Left Column: Direct Social Links & Clickable Logos -->
+        <div class="contact-info">
+          <h3>Let's Build Something Great</h3>
+          <p>
+            Have a project in mind, a collaboration opportunity, or just want to say hi? Fill out the form or reach out directly through any of my channels below.
+          </p>
+
+          <div class="social-logos">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/muhammed-nuhman-k-59a482404/" target="_blank" class="social-btn" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/PROBOY2363" target="_blank" class="social-btn" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+              </svg>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/918921954729" target="_blank" class="social-btn" aria-label="WhatsApp" title="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.71 2.67 4.22 3.64 2.08.81 2.5.65 2.95.61.45-.04 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.13-.16.25-.63.8-.78.96-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.54-1.34-.76-1.84-.2-.48-.4-.41-.55-.41z"/>
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/direct/t/17844547559985740" target="_blank" class="social-btn" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+              </svg>
+            </a>
+
+            <!-- Phone -->
+            <a href="callto:+91892-195-4729" class="social-btn" aria-label="Phone Call" title="Call Me">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/>
+              </svg>
+            </a>
+            <a href="mailto:knuhman9645@gmail.com" class="social-btn" aria-label="Email" title="Email Me">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m-1.4 3.25L12.75 13.6a1.25 1.25 0 0 1-1.5-.1L5.4 7.25A1.25 1.25 0 0 1 6.5 6h11a1.25 1.25 0 0 1 .9.35z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <form id="contactForm" class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name <span>*</span></label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number <span>*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address <span class="optional-tag">(Optional)</span></label>
+            <input type="text" id="address" name="address" placeholder="City, State / Country (Optional)">
+          </div>
+
+          <button type="submit" class="btn btn-gold submit-btn">Send Details</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <p>&copy; 2026 Muhammed Nuhman K</p>
+  </footer>
+
+  <script src="swarm-auto.js"></script>
+
+</body>
+</html>
